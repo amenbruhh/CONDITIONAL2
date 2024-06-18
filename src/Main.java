@@ -14,14 +14,13 @@ public class Main {
 
         // задача 2
 
-        int clientDeviceYear = 2016;
-        int OS = 1;
+        int clientDeviceYear = 2013;
 
-        if (clientDeviceYear <= 2015 && OS == 1) {
+        if (clientOS == 1 && clientDeviceYear <= 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        } else if (OS != 1) {
+        } else if (clientOS != 1) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientDeviceYear >= 2015 && OS == 1) {
+        } else if (clientOS == 1 && clientDeviceYear <= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else {
             System.out.println("Установите версию приложения для iOS по ссылке");
