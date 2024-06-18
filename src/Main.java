@@ -3,7 +3,7 @@ public class Main {
 
         // задача 1
 
-        char clientOS = 1;
+        char clientOS = 0;
 
         if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else if (clientOS != 1) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOS == 1 && clientDeviceYear <= 2015) {
+        } else if (clientDeviceYear <= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else {
             System.out.println("Установите версию приложения для iOS по ссылке");
@@ -61,7 +61,6 @@ public class Main {
 
 
         // задача 5
-        // это ужас какой-то. уровень сложности просто пздц
 
         int monthNumber = 12;
 
